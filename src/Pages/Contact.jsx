@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div>
             <p>Connect with me</p>
-            <p>// just checking if git name changed</p>
+            <p>// just checking if git name changed???</p>
         </div>
 
     )
