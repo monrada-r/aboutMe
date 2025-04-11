@@ -1,0 +1,13 @@
+.subNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #73877B;
+}
+
+.subNav a {
+    padding-right: 2vw;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+}

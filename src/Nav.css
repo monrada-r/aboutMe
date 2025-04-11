@@ -1,0 +1,13 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #839788;
+    margin: 0px;
+}
+
+.contactLink{
+    padding-right: 2vw;
+}
