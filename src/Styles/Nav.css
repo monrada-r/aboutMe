@@ -2,12 +2,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    background-color: #839788;
+    background-color: #eaeaea;
     margin: 0px;
-}
-
-.contactLink{
-    padding-right: 2vw;
 }
