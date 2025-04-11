@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #73877B;
+    background-color: #eaeaea;
 }
 
-.subNav a {
+.room {
     padding-right: 2vw;
     text-decoration: none;
     color: black;
