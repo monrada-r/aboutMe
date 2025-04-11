@@ -3,8 +3,10 @@ import '../Styles/Contact.css'
 function Contact() {
 
     return (
-
-        <p>Connect with me</p>
+        <div>
+            <p>Connect with me</p>
+            <p>// just checking if git name changed???</p>
+        </div>
 
     )
 
