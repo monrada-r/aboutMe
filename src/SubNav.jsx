@@ -4,7 +4,7 @@ function SubNav() {
     return (
         <div className="subNav">
             <a href="">About Me</a>
-            <a href="">Travel</a>
+            <a href="">Travels</a>
             <a href="">Pet</a>
             <a href="">Hobbies</a>
         </div>
