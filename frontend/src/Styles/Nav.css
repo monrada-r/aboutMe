@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #EEE9E8;
+    margin: 0px;
+}
+
+.navLogo {
+    width: 6em;
+}
+
+.webTitle {
+    font-family: "Nanum Myeongjo";
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 0.5em;
+}
