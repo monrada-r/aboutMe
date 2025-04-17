@@ -1,29 +1,10 @@
 import '../Styles/Home.css'
-import { useEffect, useState } from 'react'
-import axios from 'axios'
 
 function Home() {
-
-    const [imageUrl, setImageUrl] = useState("")
-
-    useEffect(() => {
-        const fetchImage = async () => {
-            try {
-                const res = await axios.get('http://localhost:3000/api/home-image')
-                setImageUrl(res.data.imageUrl)
-            } catch (err) {
-                console.error("Failed to load image", err)
-            }
-        }
-
-        fetchImage()
-    }, [])
-
-
     return (
         <div className='home'>
             <div>
-                {imageUrl ? <img src={imageUrl} className="img" alt="Home image" /> : null}
+                <img src="src/assets/home-img.jpg" className="img" alt="Home image" />
             </div>
             <div className='welcomeText'>
                 <h2>Welcome to Minty's Personal Museum</h2>
