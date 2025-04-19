@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: #EEE9E8;
+    padding-bottom: 0.8em;
 }
 
 .room {
