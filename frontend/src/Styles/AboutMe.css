@@ -1,0 +1,127 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    gap: 120px;
+}
+
+#card1 {
+    margin-bottom: 2em;
+}
+
+#card2 {
+    margin-bottom: 5em;
+}
+
+#card3 {
+    margin-bottom: 4em;
+}
+
+.story {
+    flex: 1;
+    max-width: 600px;
+    color: #000;
+    font-family: "Darker Grotesque";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+.image1-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 447 / 680;
+}
+
+#dec1,
+#abtme1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#dec1 {
+    transform: translateX(-30%);
+}
+
+#abtme1 {
+    z-index: 2;
+}
+
+#abtme2 {
+    width: 400px;
+    height: auto;
+    aspect-ratio: 270/283;
+    border-radius: 40px;
+}
+
+#abtme3 {
+    width: auto;
+    height: 400px;
+    aspect-ratio: 437.26/640.00;
+    border-radius: 40px;
+}
+
+#abtme4 {
+    z-index: 1;
+}
+
+.image4-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    aspect-ratio: 200 / 300;
+}
+
+#dec4,
+#abtme4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#dec4 {
+    width: 120px;
+    z-index: 2;
+    transform: translateX(220%) translateY(100px);
+}
+
+#dec4-1 {
+    width: 90px;
+    z-index: 2;
+    transform: translateX(-160%) translateY(300px);
+}
+
+#abtme5 {
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+}
+
+#card5 {
+    margin-bottom: 4em;
+}
+
+#abtme6 {
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+}
+
+#card6 {
+    margin-bottom: 5em;
+}
