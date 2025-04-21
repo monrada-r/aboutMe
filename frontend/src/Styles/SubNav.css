@@ -1,9 +1,36 @@
+.navContainer {
+    width: 100%;
+}
+
+.subNavHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em 1em;
+    background-color: #EEE9E8;
+}
+
 .subNav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #EEE9E8;
     padding-bottom: 0.8em;
+}
+
+
+.dropdownToggle {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+    color: black;
+}
+
+.dropdownToggle:focus{
+    border: none;
+    outline: none;
 }
 
 .room {
@@ -38,4 +65,20 @@
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .subNav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subNav.hide {
+        display: none;
+    }
+
+    .subNav.show {
+        display: flex;
+    }
+
 }

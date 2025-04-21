@@ -4,10 +4,14 @@ import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
-        <nav className='navBar'>
-            <Link to="/"><img src={webLogo} className="navLogo" alt="Web logo" /></Link>
-            <span className='webTitle'>MINTY’S PERSONAL MUSEUM</span>
-        </nav>
+        <>
+            <Link to="/">
+                <nav className='navBar'>
+                    <img src={webLogo} className="navLogo" alt="Web logo" />
+                    <span className='webTitle'>MINTY’S PERSONAL MUSEUM</span>
+                </nav>
+            </Link>
+        </>
     )
 }
 

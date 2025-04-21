@@ -125,3 +125,24 @@
 #card6 {
     margin-bottom: 5em;
 }
+
+@media screen and (max-width: 768px) {
+
+    .card {
+        flex-direction: column;
+        width: 90%;
+        gap: 2em;
+    }
+
+    .story {
+        order: 1;
+        font-size: 1.2em;
+    }
+
+    .card img,
+    .image1-wrapper,
+    .image4-wrapper {
+        order: 2;
+    }
+
+}

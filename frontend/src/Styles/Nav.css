@@ -20,4 +20,19 @@
     font-style: normal;
     font-weight: 400;
     padding-left: 0.5em;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navLogo {
+        width: 4em;
+    }
+
+    .webTitle {
+        font-size: 1.5em;
+    }
+
 }
