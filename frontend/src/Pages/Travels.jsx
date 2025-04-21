@@ -15,19 +15,19 @@ function Travels() {
     };
 
     const mapPin = new L.Icon({
-        iconUrl: "src/assets/mapPin.png",
+        iconUrl: "/mapPin.png",
         iconSize: [40, 35]
     });
 
     const locations = [
-        { position: [48.861999, 2.333255], img: "src/assets/travel2.jpg", country: "FRANCE" },
-        { position: [37.571751, 127.028848], img: "src/assets/travel1.jpg", country: "South Korea" },
-        { position: [50.84677, 4.347253], img: "src/assets/travel3.jpg", country: "Belgium" },
-        { position: [55.760923, 37.610743], img: "src/assets/travel4.jpg", country: "Russia" },
-        { position: [22.292952, 114.147375], img: "src/assets/travel5.jpg", country: "Hong Kong" },
-        { position: [35.721663, 139.963889], img: "src/assets/travel6.jpg", country: "Japan" },
-        { position: [1.280963, 103.912629], img: "src/assets/travel7.jpg", country: "Singapore" },
-        { position: [-42.644982, 172.411135], img: "src/assets/travel8.jpg", country: "New Zealand" },
+        { position: [48.861999, 2.333255], img: "/travel2.jpg", country: "FRANCE" },
+        { position: [37.571751, 127.028848], img: "/travel1.jpg", country: "South Korea" },
+        { position: [50.84677, 4.347253], img: "/travel3.jpg", country: "Belgium" },
+        { position: [55.760923, 37.610743], img: "/travel4.jpg", country: "Russia" },
+        { position: [22.292952, 114.147375], img: "/travel5.jpg", country: "Hong Kong" },
+        { position: [35.721663, 139.963889], img: "/travel6.jpg", country: "Japan" },
+        { position: [1.280963, 103.912629], img: "/travel7.jpg", country: "Singapore" },
+        { position: [-42.644982, 172.411135], img: "/travel8.jpg", country: "New Zealand" },
     ];
 
     return (
