@@ -131,7 +131,7 @@
     .card {
         flex-direction: column;
         width: 90%;
-        gap: 2em;
+        gap: 1em;
     }
 
     .story {
@@ -156,16 +156,17 @@
 
     .image1-wrapper,
     .image4-wrapper {
-        max-width: 300px;
+        max-width: 250px;
     }
 
     #dec4 {
-        width: 100px;
+        width: 80px;
         transform: translateX(200%) translateY(70px);
     }
     
     #dec4-1 {
-        transform: translateX(-160%) translateY(250px);
+        width: 50px;
+        transform: translateX(-190%) translateY(220px);
     }
 
 }
