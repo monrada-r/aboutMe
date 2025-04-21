@@ -4,7 +4,11 @@ function Pet() {
 
     return (
 
-        <p>My furry friends</p>
+        <>
+        <img className="petDec1" src="src/assets/petDec1.png" alt="" />
+        <img className="petImg" src="src/assets/pet.jpg" alt="" />
+        
+        </>
 
     )
 

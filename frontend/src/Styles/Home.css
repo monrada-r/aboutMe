@@ -6,11 +6,12 @@ justify-content:center;
 padding: 3em;
 }
 
-.img {
+.imgHome {
     height: 30vw;
     border-radius: 20px;
 }
 
 .welcomeText{
+    font-size: 1.5em;
     padding: 2vw;
 }

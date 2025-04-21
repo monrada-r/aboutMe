@@ -1,0 +1,12 @@
+.petImg {
+    width: 507px;
+    height: 507px;
+    aspect-ratio: 1/1;
+    border-radius: 500px;
+}
+
+.petDec1 {
+    width: 227px;
+    height: auto;
+    aspect-ratio: 527/938;
+}
