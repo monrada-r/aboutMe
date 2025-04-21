@@ -28,11 +28,11 @@
 @media screen and (max-width: 768px) {
 
     .navLogo {
-        width: 4em;
+        width: 3.5em;
     }
 
     .webTitle {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
 }
