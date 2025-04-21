@@ -1,0 +1,46 @@
+.regContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.flower {
+    width: 200px;
+    height: auto;
+}
+
+.regBox {
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+    border: 4px dashed #FFF;
+    background: #1279AE;
+}
+
+.nameBox {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    border: 8px solid #F295B4;
+    background: #F5D832;
+}
+
+.submitName {
+    width: 40%;
+    height: auto;
+    color: #FFF;
+    border: #FFF solid 8px;
+    text-align: center;
+    font-family: "Darker Grotesque";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #1279AE;
+    text-decoration: none;
+}

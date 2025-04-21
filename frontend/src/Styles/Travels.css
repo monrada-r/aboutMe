@@ -16,17 +16,76 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
+    justify-content: center;
+    width: 300px;
     height: auto;
     padding-top: 20px;
+    padding: 1.5em;
+    box-sizing: border-box;
+    z-index: 999;
 }
 
 .img {
     width: 90%;
     height: auto;
-
+    object-fit: cover;
 }
 
 .country {
     font-family: "Darker Grotesque";
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modalContent {
+    position: relative;
+    background: white;
+    padding: 20px;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+    text-align: center;
+    border-radius: 12px;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.modalImg {
+    max-width: 90%;
+    max-height: 70vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.modalCountry {
+    font-family: "Darker Grotesque";
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.closeBtn {
+    position: absolute;
+    top: -0.8em;
+    right: -0.6em;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.closeBtn:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }

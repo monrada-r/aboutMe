@@ -9,6 +9,7 @@ import Travels from './Pages/Travels';
 import Pet from './Pages/Pet';
 import Hobbies from './Pages/Hobbies';
 import Contact from './Pages/Contact';
+import Register from './Pages/Register';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
       <Nav />
       <SubNav />
       <Routes>
+        <Route path='/register' element={<Register />} />
         <Route path="/" element={<Home />} />
         <Route path="/aboutMe" element={<AboutMe />} />
         <Route path="/travels" element={<Travels />} />
