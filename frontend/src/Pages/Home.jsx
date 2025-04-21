@@ -1,10 +1,11 @@
 import '../Styles/Home.css'
+import imgHome from '../assets/home-img.jpg'
 
 function Home() {
     return (
         <div className='home'>
             <div>
-                <img src="src/assets/home-img.jpg" className="imgHome" alt="Home image" />
+                <img src={imgHome} className="imgHome" alt="Home image" />
             </div>
             <div className='welcomeText'>
                 <h2>Welcome to Minty's Personal Museum</h2>
